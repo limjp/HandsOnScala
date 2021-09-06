@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rt-11.0.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.ammonite/rt-11.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

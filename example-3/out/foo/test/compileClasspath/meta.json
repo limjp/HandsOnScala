@@ -1,0 +1,14 @@
+{
+    "value": [
+        "ref:c984eca8:/home/limjp/example-3/foo/resources",
+        "ref:65051d0b:/home/limjp/example-3/out/foo/compile/dest/classes",
+        "ref:c984eca8:/home/limjp/example-3/foo/test/resources",
+        "qref:6a907ce2:/home/limjp/example-3/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar",
+        "qref:a2099042:/home/limjp/example-3/.coursier/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4.jar",
+        "qref:1c0af55c:/home/limjp/example-3/.coursier/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
+        "qref:ebae7b9e:/home/limjp/example-3/.coursier/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar",
+        "qref:38b94e97:/home/limjp/example-3/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.2/scala-reflect-2.13.2.jar"
+    ],
+    "valueHash": 1159447312,
+    "inputsHash": 1281485741
+}

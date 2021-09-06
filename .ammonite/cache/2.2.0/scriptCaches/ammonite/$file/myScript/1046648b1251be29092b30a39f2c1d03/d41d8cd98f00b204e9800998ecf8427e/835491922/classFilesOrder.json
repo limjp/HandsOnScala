@@ -1,0 +1,105 @@
+[
+    {
+        "code": "1046648b1251be29092b30a39f2c1d03",
+        "env": "d41d8cd98f00b204e9800998ecf8427e",
+        "classPathWhitelistHash": "835491922"
+    },
+    [
+        {
+            "id": {
+                "wrapperPath": "ammonite.$file.myScript",
+                "tag": {
+                    "code": "16afa03319937e90ab80eb2f3cb76320",
+                    "env": "d6a7fefa3210f9f90460ac77cae72131",
+                    "classPathWhitelistHash": "835491922"
+                }
+            },
+            "leadingSpaces": "",
+            "hookInfo": {
+                "imports": [
+                    
+                ],
+                "stmts": [
+                    "class Msg(val id: Int, val parent: Option[Int], val txt: String)\n\n",
+                    "def printMessages(messages: Array[Msg]): Unit = {\n  def findParent(msg: Msg, start: Int): Int = {\n    if (msg.parent == None) start else start + 1\n  }\n\n  for (msg <- messages) {\n    for (i <- Range(0, findParent(msg, 0))) {\n      print(\" \")\n    }\n    println(s\"${msg.id} ${msg.txt}\")\n  }\n}\n\n",
+                    "printMessages(Array(\n  new Msg(0, None, \"Hello\"),\n  new Msg(1, Some(0), \"World\"),\n  new Msg(2, None, \"I am Cow\"),\n  new Msg(3, Some(2), \"Hear me moo\"),\n  new Msg(4, Some(2), \"Here I stand\"),\n  new Msg(5, Some(2), \"I am Cow\"),\n  new Msg(6, Some(5), \"Here me moo, moo\")\n))"
+                ],
+                "trees": [
+                    
+                ]
+            },
+            "finalImports": [
+                {
+                    "fromName": "res_2",
+                    "toName": "res_2",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "printMessages",
+                    "toName": "printMessages",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "$routes",
+                    "toName": "$routes",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "Msg",
+                    "toName": "Msg",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Type"
+                    }
+                },
+                {
+                    "fromName": "$routesOuter",
+                    "toName": "$routesOuter",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                }
+            ]
+        }
+    ]
+]

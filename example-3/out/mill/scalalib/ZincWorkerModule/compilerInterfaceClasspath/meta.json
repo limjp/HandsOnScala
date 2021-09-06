@@ -1,0 +1,8 @@
+{
+    "value": [
+        "qref:12433fa5:/home/limjp/example-3/.coursier/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.4.0-M1/compiler-interface-1.4.0-M1.jar",
+        "qref:837ec178:/home/limjp/example-3/.coursier/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar"
+    ],
+    "valueHash": -1782447843,
+    "inputsHash": -1709443310
+}

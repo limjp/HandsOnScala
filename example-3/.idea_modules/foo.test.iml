@@ -1,0 +1,21 @@
+<module type="JAVA_MODULE" version="4">
+    <component name="NewModuleRootManager">
+        <output-test url="file://$MODULE_DIR$/../out/foo/test/ideaCompileOutput/dest/classes"/>
+        <exclude-output/>
+        <content url="file://$MODULE_DIR$/../foo/test/src">
+            <sourceFolder url="file://$MODULE_DIR$/../foo/test/src" isTestSource="true"/>
+        </content>
+        <content url="file://$MODULE_DIR$/../foo/test/resources">
+            <sourceFolder url="file://$MODULE_DIR$/../foo/test/resources" type="java-test-resource"/>
+        </content>
+        <orderEntry type="inheritedJdk"/>
+        <orderEntry type="sourceFolder" forTests="false"/>
+        <orderEntry type="library" name="scala-sdk-2.13.2" level="application"/>
+        <orderEntry type="library" name="portable-scala-reflect_2.13-0.1.1.jar" level="project"/>
+        <orderEntry type="library" name="scala-library-2.13.2.jar" level="project"/>
+        <orderEntry type="library" name="scala-reflect-2.13.2.jar" level="project"/>
+        <orderEntry type="library" name="test-interface-1.0.jar" level="project"/>
+        <orderEntry type="library" name="utest_2.13-0.7.4.jar" level="project"/>
+        <orderEntry type="module" module-name="foo" exported=""/>
+    </component>
+</module>

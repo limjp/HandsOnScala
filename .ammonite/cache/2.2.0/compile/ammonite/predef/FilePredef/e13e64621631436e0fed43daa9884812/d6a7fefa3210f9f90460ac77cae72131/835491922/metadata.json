@@ -1,0 +1,20 @@
+[
+    {
+        "code": "e13e64621631436e0fed43daa9884812",
+        "env": "d6a7fefa3210f9f90460ac77cae72131",
+        "classPathWhitelistHash": "835491922"
+    },
+    [
+        {
+            "fromName": "hello",
+            "toName": "hello",
+            "prefix": [
+                
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        }
+    ]
+]

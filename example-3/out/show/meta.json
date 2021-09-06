@@ -1,0 +1,13 @@
+{
+    "value": {
+        "value": {
+            
+        },
+        "watched": [
+            "ref:c984eca8:/home/limjp/example-3/foo/resources",
+            "ref:47e4fe04:/home/limjp/example-3/foo/src"
+        ]
+    },
+    "valueHash": 1094503492,
+    "inputsHash": -1709443310
+}

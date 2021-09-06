@@ -1,0 +1,149 @@
+[
+    {
+        "code": "ad6350af4a3495fa2babf42a2a373c69",
+        "env": "d41d8cd98f00b204e9800998ecf8427e",
+        "classPathWhitelistHash": "835491922"
+    },
+    [
+        {
+            "id": {
+                "wrapperPath": "ammonite.$file.myScript",
+                "tag": {
+                    "code": "301f84886c29f06fe1b21833522d763b",
+                    "env": "d6a7fefa3210f9f90460ac77cae72131",
+                    "classPathWhitelistHash": "835491922"
+                }
+            },
+            "leadingSpaces": "",
+            "hookInfo": {
+                "imports": [
+                    
+                ],
+                "stmts": [
+                    "def flexibleFizzBuzz(handleLine: String => Unit): Unit = {\n  for (i <- Range.inclusive(1, 100)) {\n    handleLine(\n      if (i % 3 == 0 && i % 5 == 0) \"FizzBuzz\"\n      else if (i % 3 == 0) \"Fizz\"\n      else if (i % 5 == 0) \"Buzz\"\n      else i.toString\n    )\n  }\n}\n\n",
+                    "var i = 0\n\n",
+                    "val output = new Array[String](100)\n\n",
+                    "flexibleFizzBuzz{ s =>\n  output(i) = s\n  i += 1\n}\n\n",
+                    "println(output)"
+                ],
+                "trees": [
+                    
+                ]
+            },
+            "finalImports": [
+                {
+                    "fromName": "output",
+                    "toName": "output",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "res_3",
+                    "toName": "res_3",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "$routes",
+                    "toName": "$routes",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "i_=",
+                    "toName": "i_=",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "flexibleFizzBuzz",
+                    "toName": "flexibleFizzBuzz",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "$routesOuter",
+                    "toName": "$routesOuter",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "res_4",
+                    "toName": "res_4",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "i",
+                    "toName": "i",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                }
+            ]
+        }
+    ]
+]

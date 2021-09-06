@@ -1,0 +1,766 @@
+[
+    {
+        "code": "bab01f8260bea1da7af3ebaa52a29a5d",
+        "env": "579ca3898036c8f108220d6f0204eae7",
+        "classPathWhitelistHash": "835491922"
+    },
+    [
+        {
+            "fromName": "foo",
+            "toName": "foo",
+            "prefix": [
+                
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "$init$",
+            "toName": "$init$",
+            "prefix": [
+                
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "moduledefs",
+            "toName": "moduledefs",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "Module",
+            "toName": "Module",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "define",
+            "toName": "define",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "Agg",
+            "toName": "Agg",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "modules",
+            "toName": "modules",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "util",
+            "toName": "util",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "PathRef",
+            "toName": "PathRef",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "pathReadWrite",
+            "toName": "pathReadWrite",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "scalalib",
+            "toName": "scalalib",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "typeFormat",
+            "toName": "typeFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "extensionFormat",
+            "toName": "extensionFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "bytesReadWrite",
+            "toName": "bytesReadWrite",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "scalanativelib",
+            "toName": "scalanativelib",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "regexReadWrite",
+            "toName": "regexReadWrite",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "enumFormat",
+            "toName": "enumFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "attrFormat",
+            "toName": "attrFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "scalajslib",
+            "toName": "scalajslib",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "modNameFormat",
+            "toName": "modNameFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "stackTraceRW",
+            "toName": "stackTraceRW",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "main",
+            "toName": "main",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "T",
+            "toName": "T",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "Cross",
+            "toName": "Cross",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "classifierFormat",
+            "toName": "classifierFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "depFormat",
+            "toName": "depFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "BuildInfo",
+            "toName": "BuildInfo",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "crFormat",
+            "toName": "crFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "configurationFormat",
+            "toName": "configurationFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "orgFormat",
+            "toName": "orgFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "MillMain",
+            "toName": "MillMain",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "modFormat",
+            "toName": "modFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "publicationFormat",
+            "toName": "publicationFormat",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "eval",
+            "toName": "eval",
+            "prefix": [
+                "_root_",
+                "mill"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "publish",
+            "toName": "publish",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "package",
+            "toName": "package",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "SbtModule",
+            "toName": "SbtModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "TestRunner",
+            "toName": "TestRunner",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "ScalaModule",
+            "toName": "ScalaModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "MavenTests",
+            "toName": "MavenTests",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "scalafmt",
+            "toName": "scalafmt",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "CrossModuleBase",
+            "toName": "CrossModuleBase",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "ZincWorkerModule",
+            "toName": "ZincWorkerModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "JavaModule",
+            "toName": "JavaModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "CrossVersion",
+            "toName": "CrossVersion",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "TestModule",
+            "toName": "TestModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "Dep",
+            "toName": "Dep",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "GenIdeaModule",
+            "toName": "GenIdeaModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "MavenModule",
+            "toName": "MavenModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "CrossSbtModule",
+            "toName": "CrossSbtModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "GenIdeaImpl",
+            "toName": "GenIdeaImpl",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "dependency",
+            "toName": "dependency",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "PublishModule",
+            "toName": "PublishModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "TermType"
+            }
+        },
+        {
+            "fromName": "CoursierModule",
+            "toName": "CoursierModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "GenIdea",
+            "toName": "GenIdea",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "CrossScalaModule",
+            "toName": "CrossScalaModule",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "DepSyntax",
+            "toName": "DepSyntax",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Type"
+            }
+        },
+        {
+            "fromName": "api",
+            "toName": "api",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "Versions",
+            "toName": "Versions",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "Lib",
+            "toName": "Lib",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "Dependency",
+            "toName": "Dependency",
+            "prefix": [
+                "_root_",
+                "mill",
+                "scalalib"
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        }
+    ]
+]

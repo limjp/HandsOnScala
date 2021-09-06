@@ -1,0 +1,75 @@
+[
+    {
+        "code": "8d45d18b83c0942306810ee215753471",
+        "env": "d41d8cd98f00b204e9800998ecf8427e",
+        "classPathWhitelistHash": "835491922"
+    },
+    [
+        {
+            "id": {
+                "wrapperPath": "ammonite.$file.myScript",
+                "tag": {
+                    "code": "d5ab2df9f8c146e607be3d456c21356a",
+                    "env": "d6a7fefa3210f9f90460ac77cae72131",
+                    "classPathWhitelistHash": "835491922"
+                }
+            },
+            "leadingSpaces": "",
+            "hookInfo": {
+                "imports": [
+                    
+                ],
+                "stmts": [
+                    "def flexibleFizzBuzz(handleLine: String => Unit): Unit = {\n  for (i <- Range.inclusive(1, 100)) {\n    handleLine(\n      if (i % 3 == 0 && i % 5 == 0) \"FizzBuzz\"\n      else if (i % 3 == 0) \"Fizz\"\n      else if (i % 5 == 0) \"Buzz\"\n      else i.toString\n    )\n  }\n}\n"
+                ],
+                "trees": [
+                    
+                ]
+            },
+            "finalImports": [
+                {
+                    "fromName": "$routes",
+                    "toName": "$routes",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "flexibleFizzBuzz",
+                    "toName": "flexibleFizzBuzz",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                },
+                {
+                    "fromName": "$routesOuter",
+                    "toName": "$routesOuter",
+                    "prefix": [
+                        "_root_",
+                        "ammonite",
+                        "$file",
+                        "myScript"
+                    ],
+                    "importType": {
+                        "$type": "ammonite.util.ImportData.ImportType",
+                        "name": "Term"
+                    }
+                }
+            ]
+        }
+    ]
+]

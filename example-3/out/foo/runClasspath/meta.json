@@ -1,0 +1,9 @@
+{
+    "value": [
+        "ref:c984eca8:/home/limjp/example-3/foo/resources",
+        "ref:65051d0b:/home/limjp/example-3/out/foo/compile/dest/classes",
+        "qref:6a907ce2:/home/limjp/example-3/.coursier/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.2/scala-library-2.13.2.jar"
+    ],
+    "valueHash": 1914845005,
+    "inputsHash": 673680227
+}

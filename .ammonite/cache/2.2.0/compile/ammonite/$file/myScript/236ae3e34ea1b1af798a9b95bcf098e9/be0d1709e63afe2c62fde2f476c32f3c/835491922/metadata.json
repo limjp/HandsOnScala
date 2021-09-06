@@ -1,0 +1,64 @@
+[
+    {
+        "code": "236ae3e34ea1b1af798a9b95bcf098e9",
+        "env": "be0d1709e63afe2c62fde2f476c32f3c",
+        "classPathWhitelistHash": "835491922"
+    },
+    [
+        {
+            "fromName": "res_2",
+            "toName": "res_2",
+            "prefix": [
+                
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "res_0",
+            "toName": "res_0",
+            "prefix": [
+                
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "$routes",
+            "toName": "$routes",
+            "prefix": [
+                
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "res_1",
+            "toName": "res_1",
+            "prefix": [
+                
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        },
+        {
+            "fromName": "$routesOuter",
+            "toName": "$routesOuter",
+            "prefix": [
+                
+            ],
+            "importType": {
+                "$type": "ammonite.util.ImportData.ImportType",
+                "name": "Term"
+            }
+        }
+    ]
+]
