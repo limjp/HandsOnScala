@@ -1,10 +1,13 @@
-def retry[T](max: Int)(f: => T): T = {
+def retry[T](max: Int, delayTime: Int)(f: => T): T = {
   var tries = 0
   var result: Option[T] = None
+  var currentDelay = delayTime
   while (result == None) {
     try { result = Some(f)}
     catch {case e: Throwable =>
-    tries += 1
+      Thread.sleep(currentDelay)
+      currentDelay *= 2
+      tries += 1
     if (tries > max) throw e
     else {
       println(s"failed, retry $tries")

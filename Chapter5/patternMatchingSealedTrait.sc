@@ -33,8 +33,42 @@ def evaluate(expr: Expr, values: Map[String, Int]): Int = expr match {
   case Variable(name) => values(name)
 }
 
+def simplify(expr: Expr): Expr = {
+  val res = expr match{
+    case BinOp(Literal(left), "+", Literal(right)) => Literal(left + right)
+    case BinOp(Literal(left), "-", Literal(right)) => Literal(left - right)
+    case BinOp(Literal(left), "*", Literal(right)) => Literal(left * right)
+
+    case BinOp(left, "*", Literal(1)) => simplify(left)
+    case BinOp(Literal(1), "*", right) => simplify(right)
+
+    case BinOp(left, "+", Literal(0)) => simplify(left)
+    case BinOp(Literal(0), "+", right) => simplify(right)
+
+    case BinOp(left, "-", Literal(0)) => simplify(left)
+
+    case BinOp(left, "*", Literal(0)) => Literal(0)
+    case BinOp(Literal(0), "*", right) => Literal(0)
+
+    case BinOp(left, "+", right) => BinOp(simplify(left), "+", simplify(right))
+    case BinOp(left, "-", right) => BinOp(simplify(left), "-", simplify(right))
+    case BinOp(left, "*", right) => BinOp(simplify(left), "*", simplify(right))
+
+    case Literal(value) => Literal(value)
+    case Variable(name) => Variable(name)
+  }
+  if (res == expr) res
+  else simplify(res)
+}
+
 val smallerExpr = BinOp(
   Variable("x"),
+  "+",
+  Literal(1)
+)
+
+val onePlusOne = BinOp(
+  Literal(1),
   "+",
   Literal(1)
 )
